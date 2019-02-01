@@ -62,4 +62,3 @@
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
 static/* linguist-vendored
-WebApplication/Scripts/jquery-3.3.1.intellisense.js
