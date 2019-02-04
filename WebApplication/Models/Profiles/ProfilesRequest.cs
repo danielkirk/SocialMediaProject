@@ -1,9 +1,8 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace WebApplication.Models
 {
-    public class Profile
+    public class ProfilesRequest
     {
         [StringLength(100, MinimumLength = 2)]
         [Required]
@@ -20,8 +19,5 @@ namespace WebApplication.Models
         [Range(0, 90)]
         [Required]
         public int Experience { get; set; }
-
-        public DateTime DateJoined { get; set; }
-
     }
 }
